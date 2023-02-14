@@ -1,9 +1,8 @@
 late String description;
 var foo = const [];
 void main(List<String> args) {
-  description = 'Feijoada';
-  print(description);
-  foo = [1, 2, 3];
+  const Object i = 3;
+  print(i is String);
 }
 
 final name = 'Bob';
@@ -18,5 +17,3 @@ final bar2 = const [];
 const baz = []; // Equivalent to `const []`
 
 var test = [];
-
-test = [1, 2, 3,4];
