@@ -4,4 +4,7 @@ void main(List<String> args) {
     'second': 'turtledoves',
     'fifth': 'golden rings',
   };
+
+  var gifts2 = Map<String, String>();
+  gifts2['first'] = 'partrigde';
 }

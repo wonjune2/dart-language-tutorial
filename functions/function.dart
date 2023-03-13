@@ -1,5 +1,9 @@
 void main(List<String> args) {
-  bool isNoble(int atomicNumber) => false;
-}
+  var start = 1;
+  var end = 9;
 
-void namedFunction({bool? bold, bool? hidden}) {}
+  var res = (start + end) * (end / 2);
+  print(res);
+
+  // 1+2+3+4+5+6+7+8+9+10
+}

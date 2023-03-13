@@ -1,5 +1,8 @@
 void main(List<String> args) {
   var halogens = {'fluorine', 'chlorine', 'bromine', 'iodine', 'astatine'};
   halogens.add('test');
-  halogens.add(1);
+
+  var name = <String>{};
+  Set<String> name2 = {};
+  var names = {};
 }
